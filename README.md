@@ -1,7 +1,7 @@
 # Education-Perfect-Bot
 
-### Link to download: [EPBot_v4](https://drive.google.com/drive/folders/1POF7tqxP0ZwHE-ype5WeVieXJmhGaQhc?usp=sharing)
-(Only on google drive as it surpassed GitHubs file size limit)
+### Link to download: [EPBot_v4](https://mega.nz/folder/4xBnWQKJ#9zFpdYySFCyFFY2Acj6Vng)
+(Only on Mega as it surpassed GitHubs file size limit)
 
 A bot that automatically completes education Perfect list tasks using selenium. Requires Firefox to run.
 
