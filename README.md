@@ -1,23 +1,40 @@
-# Education Perfect Bot
-#### Script to automatically answer Education Perfect language questions. Written in JavaScript
+# education perfect bot
 
-### To learn how to use the script you can watch the [YouTube Tutorial](https://youtube.com/c/keypos)
+## automatically answers education perfect list tasks
+
+### [youtube tutorial](https://youtube.com/c/keypos)
 *work in progress at the moment*
 
-## Documentation
-### Loading the script  
-The currently working version is in `script.js`  
-#### There are two main ways to run this script:
+## documentation
 
-* **Manual Mode (Excuting in DevTools Console)**  
-    * Open up to the current list task. The standard keybind is <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>I</kbd> to open DevTools.  
-    * Navigate to the console section (this will look slightly different on all browsers)  
-    *firefox devtools*
-    ![firefox devtools](src/firefox-devtools.png)
-    *chrome devtools*
-    ![chrome devtools](src/chrome-devtools.png)
-    * Copy and paste the script from `script.js` into the console then press enter   
-    * Before starting the task type `collect()` and then press enter in the console. Then begin the task  
-    * Now in the task type `start(100)` in the console and press enter to begin the script  
-      ###### Note: the 100 is just how many milliseconds it will take to answer the question. You can use any number you like
-**This is a temporary solution. You will have to manually enter each the script time you refresh or open a new page.**
+the program is written in javascript and runs using node.js  
+the [puppeteer](https://github.com/puppeteer/puppeteer) node library is used to control chromium and make actions in the browser
+
+## installation guide
+
+-   install node.js from https://nodejs.org/en/
+-   install the Puppeteer library by opening terminal and running `npm i puppeteer`
+-   download the `index.js` script (edit the username and password fields to auto login)
+-   run the `index.js` script using Node.js with the command `npm start`
+
+## expected behavior
+
+when you run the script, it should open a new browser window running chromium
+education perfect website will load as normal  
+navigate through ep as normal as the epbot is loaded in the background  
+trigger the functions using hotkeys provided below  
+*close the programing by exiting the chromium window or using `ctrl + c` in the terminal*
+
+## hotkeys
+
+all functions are triggered via the hotkeys listed below
+
+-   **refresh word list : `alt + r`**  
+     scrapes the questions and answers to all questions  
+     run before entering each task  
+     make sure to refresh the word list before each new task
+
+-   **auto answer : `alt + s`**  
+    to be used while inside the task (after clicking start)  
+    finds the answer for each question and automatically enters and submits it  
+    *you can also pause the auto answer midway by pressing the hotkey again.*
