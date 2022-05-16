@@ -1,4 +1,7 @@
 const puppeteer = require('puppeteer')
+const dotenv = require('dotenv')
+
+dotenv.config()
 
 const ELEMENTS = {
     // login page elements
@@ -38,8 +41,8 @@ const script = async () => {
             await page.waitForSelector(ELEMENTS.usernameClass)
 
             // fill in fields to login automaticly
-            await page.type(ELEMENTS.usernameClass, 'your username here')
-            await page.type(ELEMENTS.passwordClass, 'your password here')
+            await page.type(ELEMENTS.usernameClass, process.env.EP_USERNAME)
+            await page.type(ELEMENTS.passwordClass, process.env.EP_PASSWORD)
             await page.click(ELEMENTS.loginButtonClass)
 
             // auto-answer code starts here

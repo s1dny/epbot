@@ -2,6 +2,7 @@
     "name": "epbot",
     "version": "1.0.0",
     "dependencies": {
+        "dotenv": "^16.0.1",
         "puppeteer": "^14.1.0"
     },
     "scripts": {
