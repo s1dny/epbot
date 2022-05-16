@@ -1,6 +1,7 @@
 # education perfect bot
 
 ## automatically answers education perfect list tasks
+### based off the education perferct bot by [KEN-2000l](https://github.com/KEN-2000l/EducationPerfected)
 
 ### [youtube tutorial](https://youtube.com/c/keypos)
 *work in progress at the moment*
