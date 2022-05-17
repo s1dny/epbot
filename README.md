@@ -1,7 +1,29 @@
-# education perfect bot
 
-### automatically answers education perfect list tasks
-### [youtube tutorial](https://youtu.be/P-I77T8SokE)
+
+<h1 align="center">
+  <img href="http://www.amitmerchant.com/electron-markdownify"><img src="/src/epbotlogo.png" alt="Markdownify" width="200"></img>
+  </br>
+  education perfect bot
+</h1>
+<h4 align="center">simple puppeteer script to automatically answer education perfect list tasks</h4>
+<p align="center">
+  <img src="https://img.shields.io/github/last-commit/keyp0s/epbot?logo=GitHub">
+  <img src="https://img.shields.io/npm/v/puppeteer?label=puppeteer">
+  <img src="https://img.shields.io/github/downloads/keyp0s/epbot/total?color=0logo=GitHub">
+     
+     
+</p>
+
+<p align="center">
+  <a href="#getting-started">getting started</a> •
+  <a href="#documentation">documentation</a> •
+  <a href="#installation-guide">installation guide</a> •
+  <a href="#expected-behavior">expected behavior</a> •
+  <a href="#hotkeys">hotkeys</a>
+</p>
+
+## getting started
+for a quick install guide checkout the [youtube tutorial](https://youtu.be/P-I77T8SokE)
 
 ## documentation
 
