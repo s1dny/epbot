@@ -1,7 +1,7 @@
 
 
 <h1 align="center">
-  <img href="http://www.amitmerchant.com/electron-markdownify"><img src="/src/epbotlogo.png" alt="Markdownify" width="200"></img>
+  <img href="https://youtu.be/P-I77T8SokE"><img src="/src/epboticon.png" alt="ep bot logo" width="250"></img>
   </br>
   education perfect bot
 </h1>
