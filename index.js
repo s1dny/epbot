@@ -19,7 +19,7 @@ const ELEMENTS = {
 }
 
 const script = async () => {
-    loginUrl = 'https://app.educationperfect.com/app/login'
+    loginUrl = 'https://app.educationperfect.com/app/Unknown/6918650/4721834/list-starter'
 
     // specify chrome version
     const browserFetcher = puppeteer.createBrowserFetcher()
@@ -45,7 +45,7 @@ const script = async () => {
             await page.type(ELEMENTS.passwordClass, process.env.EP_PASSWORD)
             await page.click(ELEMENTS.loginButtonClass)
 
-            // auto-answer code starts here
+            // auto answer code starts here
             let TOGGLE = false
             let fullDict = {}
             let cutDict = {}
@@ -133,9 +133,9 @@ const script = async () => {
             await page.evaluate(() => {
                 document.addEventListener('keyup', async (event) => {
                     let key = event.key.toLowerCase()
-                    if (event.altKey && key === 'r') {
+                    if ((event.altKey && key === "r") || (key === "®")) {
                         await window.refresh()
-                    } else if (event.altKey && key === 's') {
+                    } else if ((event.altKey && key === "s") || (key === "ß")) {
                         window.start()
                     }
                 })
